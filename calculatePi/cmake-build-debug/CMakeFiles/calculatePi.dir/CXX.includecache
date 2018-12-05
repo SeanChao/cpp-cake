@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/Random.cpp
+cstdlib
+-
+ctime
+-
+Random.h
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/Random.h
+
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/Random.h
+
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/main.cpp
+iostream
+-
+cmath
+-
+Random.h
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/Random.h
+

@@ -1,0 +1,3 @@
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/cmake-build-debug/CMakeFiles/calculatePi.dir
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/WorkSpace/Cpp/cpp-cake/calculatePi/cmake-build-debug/CMakeFiles/rebuild_cache.dir
