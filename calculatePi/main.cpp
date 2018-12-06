@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cmath>
 #include "Random.h"
 using namespace std;
 
@@ -16,7 +15,7 @@ double calculatePi(int n){
     while(n--){
         double x = randomDouble(-1,1);
         double y = randomDouble(-1,1);
-        bool flag = pow(x,2)+pow(y,2)<=1;
+        bool flag = x*x+y*y<=1;
         cout <<"x="<<x<<", y="<<y<<", flag="<<flag<<endl;
         if(flag){
             counter++;
