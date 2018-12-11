@@ -40,12 +40,18 @@ int main() {
     LongLongInt n2("992999999999999766588749342356742765904356546004523578090234234235435347877567678342542234");
 //    LongLongInt n1("1999039");
 //    LongLongInt n2("29999599");
-    LongLongInt n3 = n2;
+    //LongLongInt n3 = n2;
     n1.display();
     n2.display();
-    n3.display();
-    cout <<"The sum is " << (n1+n3).getValue() <<endl;
+    //n3.display();
+    cout <<"The sum is " << (n1+n2).getValue() <<endl;
+
+    char *num1 = input();
+    char *num2 = input();
+    LongLongInt N1(num1);
+    LongLongInt N2(num2);
+
+    cout << (N1+N2).getValue();
 
     return 0;
-
 }

@@ -67,7 +67,7 @@ char *LongLongInt::reverse(const LongLongInt &num) const {
     }
     char *reversedInt=new char[num.length];
     strncpy(reversedInt, reversedCh, num.length);
-//    std::cout<< "The num in reversed order is:" << reversedInt << "\n";
+    //std::cout<< "The num in reversed order is:" << reversedInt << "\n";
     //delete 0 at the beginning
     bool flag = true;
     for(int i = 0; i < num.length; i++){
@@ -77,7 +77,3 @@ char *LongLongInt::reverse(const LongLongInt &num) const {
     }
     return reversedInt;
 }
-
-//void addZero(char *num, int length){
-//
-//}
