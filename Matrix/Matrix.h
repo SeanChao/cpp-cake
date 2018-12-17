@@ -6,7 +6,7 @@
 #define MATRIX_MATRIX_H
 
 #include "Row.h"
-
+#include "regex"
 class Matrix {
     int m_x;
     int m_y;
